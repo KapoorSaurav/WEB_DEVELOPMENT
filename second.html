@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color:white;
+            text-align:left;
+            background-color: blueviolet;
+            width:610px;
+            display: inline;
+
+
+        }
+        h3{
+            color:brown;
+            background-color: rgb(161, 212, 41);
+            font-style: oblique;
+        }
+        body{
+            background-image: url("black.jpg");
+        }
+        .name{
+            color:whitesmoke;
+            font-size: 20px;
+        }
+         a{
+            display:inline-block;
+            margin-left: 200px;
+            padding:20px;
+            color: white;
+            text-decoration:none;
+            
+        }
+        #secondary{
+            color: whitesmoke;
+        }
+
+        h4{
+            color:whitesmoke;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="main">
+   <h1>REGISTRATION FORM</h1>
+   <a href="#">HOME</a>
+   <a href="#">ABOUT US</a>
+   <a href="#">CONTACT</a>
+    </div>
+   <h3>BASIC INFO</h3>
+   <form>
+   <label for="fname" class="name">FIRST_NAME:</label><br /><br/>
+   <input type="text" id="fname" placeholder="Enter Your First Name" required /><br /><br />
+   <label for="lname" class="name">LAST_NAME:</label><br /><br/>
+   <input type="text" id="lname" placeholder="Enter Your Last Name" required/><br /><br/>
+   <label for="add" class="name">ADDRESS:</label><br/><br/>
+   <input type="address" id="add" placeholder="Enter address" required/><br /><br/>
+   <label for="email" class="name">EMAIL:</label><br /><br/>
+   <input type="email" id="email" placeholder="Enter Your Email" required/><br /><br/>
+   <label for="pwd" class="name">PASSWORD:</label><br /><br/>
+   <input type="password" id="pwd" placeholder="Enter Password" required/> <br /><br>
+   <label for="gender" class="name">GENDER:</label><br /><br>
+   <div id="secondary">
+   MALE:<input type="radio" name="Gender" required/> <br /><br/>
+   FEMALE:<input type="radio" name="Gender" required /> <br /><br/>
+   OTHERS:<input type="radio" name="Gender" required/> <br /><br/>
+   </div>
+   <h4>CHOOSE MONTH</h4>
+   <select>
+       <option>--SELECT--</option>
+       <option>JANUARY</option>
+       <option>FEBURARY</option>
+       <option>MARCH</option>
+       <option>APRIL</option>
+       <option>MAY</option>
+       <option>JUNE</option>
+       <option>JULY</option>
+       <option>AUGUST</option>
+       <option>SEPTEMBER</option>
+       <option>OCTOBER</option>
+       <option>NOVEMBER</option>
+       <option>DECEMBER</option>
+   </select>
+   <br/><br/>
+   <label for="color" class="name">COLOR:</label><br><br>
+   <input type="color" id="color"><br/><br/>
+   <label for="date" class="name">PIC A DATE:</label><br><br>
+   <input type="date" id="date"><br/><br/>
+   <label for="contact" class="name">MOBILE:</label><br /><br />
+   <input type="number" id="concat" placeholder="+91 (Enter Your Number)" required/><br /><br/>
+   <h4>I,read all the information and its correct upto my knowledge</h4><input type="checkbox"><br/><br/>
+   <input type="submit" value="REGISTER" required ><br/><br/>
+   <input type="reset" value="RESET" required><br/>
+   </form>
+</body>
+</html>
