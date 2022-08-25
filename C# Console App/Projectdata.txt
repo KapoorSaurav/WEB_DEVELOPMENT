@@ -1,0 +1,15 @@
+Id	attrname	attstr	attnum
+300	Author	Jack Black	
+100	Publisher	HarperCollins	
+300	NumOfPages		205
+200	Publisher	Simon and Schuster	
+300	Author	John White	
+200	Title	Bunnies	
+100	Author	W. Smith	
+300	Title	Java for Dummies	
+100	Author	A. P. Simon	
+200	Author	P. Holmes	
+100	NumOfPages		245
+200	NumOfPages		270
+100	Title	History of Hyposis	
+300	Publisher	HarperCollins	
